@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1000px) {
+  main,
+  section {
+    width: auto !important;
+    padding: 10px !important;
+  }
+  main {
+    height: auto !important;
+  }
+  .pop {
+    width: 80% !important;
+  }
+  .prog {
+    width: 5px !important;
+    height: 5px !important;
+  }
+  .balls {
+    display: none !important;
+  }
+  .main-greet {
+    padding: 0 !important;
+  }  
+}
+
+@media (max-width: 640px) {
+  .num {
+    width: 0 !important;
+    height: 0 !important;
+  }
+  .progress {
+    width: 100% !important;
+    padding: 10px !important;
+  }
+  .text {
+    width: 100% !important;
+    height: 65% !important;
+    .inner {
+      width: 100% !important;
+    }
+    section {
+      padding: 0 !important;
+    }
+  }
+
+  .tesla{
+    width: 50%!important;
+  }
+
+  .main-div {
+    justify-content: flex-start !important;
+    padding-top: 2px !important;
+  }
+
+  main.shdw-main {
+    padding: 0 !important;
+  }
+
+  .popCont {
+    margin: 0 auto!important;
+    align-items: flex-start !important;
+    .pop {
+      margin: 0!important;
+      width: 100%!important;
+      bottom: 0% !important;
+      position: fixed !important;
+      border-radius:0!important;
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) and (orientation: landscape) {
+  .num {
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0.5% !important;
+  }
+  main,
+  section {
+    width: 100% !important;
+  }
+  .progress {
+    width: 80% !important;
+    padding: 10px !important;
+    span {
+      width: 10px !important;
+      height: 10px !important;
+    }
+  }
+  main.z-main {
+    height: calc(80% + 10vw) !important;
+    margin-top: 0 !important;
+    section {
+      button {
+        width: 80% !important;
+        padding: 10px !important;
+      }
+      width: 100% !important;
+      padding: 0 !important;
+    }
+  }
+  .main-greet,
+  .main-greet section,
+  main {
+    height: 80% !important;
+  }
+  .main-div {
+    flex-direction: row !important;
+    padding: 10px !important;
+  }
+  .main-greet {
+    margin-right: 2% !important;
+  }
+  .tesla{
+    width: 30%!important;
+  }
+  .popCont {
+    margin: 0 auto!important;
+    .pop {
+      border-radius:0!important;
+      margin: 0 !important;
+      height: 20% !important;
+      width: 100%!important;
+      bottom: 0% !important;
+      position: fixed !important;
+    }
+  }
+
+  .detImg{
+    width: 10%!important;
+  }
+
+}
+
+@media only screen and (min-width: 1400px) {
+  .num{
+    width: 15px!important;
+    height: 15px!important;
+  }  
+}
